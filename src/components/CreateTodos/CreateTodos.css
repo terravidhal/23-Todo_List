@@ -1,0 +1,66 @@
+.CreateTodos {
+}
+
+.CreateTodos .input-title {
+  height: 45px;
+  width: 350px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #efefef;
+  border: 1px solid #efefef;
+  outline: none;
+  margin-right: 10px;
+  font-size: 1.6rem;
+}
+.add {
+  height: 45px;
+  padding: 0 20px;
+  border-radius: 5px;
+  background-color: rgb(13, 13, 255);
+  border: 0;
+  color: white;
+  outline: none;
+  margin-right: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.Todo {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  width: 350px;
+  margin: 20px 485px 20px auto;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: beige;
+}
+.Todo .delete button {
+  height: 45px;
+  padding: 0 20px;
+  border-radius: 5px;
+  background-color: black;
+  border: 0;
+  color: white;
+  outline: none;
+  margin-right: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.Todo .ckeck input {
+  font-size: 1.6rem;
+}
+
+.Todo .title,
+.Todo .ckeck,
+.Todo .delete {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Todo .title {
+  font-size: 1.6rem;
+}
